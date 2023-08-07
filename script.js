@@ -1,6 +1,7 @@
 let latest = document.getElementById("latest");
 let popular = document.getElementById("popular");
 let all = document.getElementById("all");
+let card = document.getElementById("card");
 function latest_(){
     popular.style.display = "none";
     latest.style.display = "flex";
@@ -24,4 +25,10 @@ function all_(){
     document.getElementById("h1").style.borderBottomColor = "transparent";
     document.getElementById("h2").style.borderBottomColor = "transparent";
     document.getElementById("h3").style.borderBottomColor = "blueviolet";
+}
+function image(){
+    card.style.display = "block";
+}
+function close(){
+    card.style.display = "none";
 }
