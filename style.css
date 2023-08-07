@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 150vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    text-align: center;
+
+
+}
+.images h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    padding-bottom: 15px;
+}
+.images .options{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+.images .options h3{
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+#h1{
+    border-bottom: 2px solid blueviolet;
+}
+#h2{
+    border-bottom: 2px solid transparent;
+}
+#h3{
+    border-bottom: 2px solid transparent;
+}
+.latest{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+}
+.latest img{
+    width: 250px;
+    margin: 5px;
+    border: 1px solid black;
+}
+.popular{
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+}
+.popular img{
+    width: 250px;
+    margin: 5px;
+    border: 1px solid black;
+}
+.all{
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+}
+.all img{
+    width: 250px;
+    margin: 5px;
+    border: 1px solid black;
+}
