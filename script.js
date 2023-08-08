@@ -26,9 +26,10 @@ function all_(){
     document.getElementById("h2").style.borderBottomColor = "transparent";
     document.getElementById("h3").style.borderBottomColor = "blueviolet";
 }
-function image(){
-    card.style.display = "block";
+function image(pic){
+    card.style.display = "flex";
+    document.getElementById("full_img").src = pic;
 }
-function close(){
+function closing(){
     card.style.display = "none";
 }
